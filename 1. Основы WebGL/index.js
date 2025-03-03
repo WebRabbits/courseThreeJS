@@ -1,6 +1,6 @@
 'use strict';
 
-// На основе созданного куба на WebGL - изменить цвет граенй и скорость вращения куба по X, Y, Z осям
+// На основе созданного куба на WebGL - изменить цвет граней и скорость вращения куба по X, Y, Z осям
 
 var canvas = document.getElementById('webgl');
 const gl = canvas.getContext('experimental-webgl');
