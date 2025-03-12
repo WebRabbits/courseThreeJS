@@ -95,12 +95,10 @@ function animate() {
   torus.rotation.z += 0.01;
 
   const angle = Date.now() * 0.001;
-  const radius = 60; // Радиус отображения камеры
+  const radius = 50; // Радиус отображения камеры
   camera.position.x = Math.sin(angle) * radius;
-  camera.position.y = 50; // Угол обзора камеры по оси Y
+  camera.position.y = 70; // Угол обзора камеры по оси Y
   camera.position.z = Math.cos(angle) * radius;
-  camera.lookAt(cylinder.position);
-  camera.lookAt(box.position);
   camera.lookAt(torus.position);
 
   renderer.render(scene, camera);
