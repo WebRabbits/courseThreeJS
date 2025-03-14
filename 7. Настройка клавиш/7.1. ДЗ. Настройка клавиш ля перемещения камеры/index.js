@@ -21,8 +21,7 @@ const geometry = {
 
 // // Создание текстуры
 const texturePlanet = new THREE.TextureLoader().load(
-  //   './img/textureAsteroid.jpg'
-  'https://photojournal.jpl.nasa.gov/jpegMod/PIA14703_modest.jpg'
+  './img/textureAsteroid.jpg'
 );
 
 // Создание материалов объектов
