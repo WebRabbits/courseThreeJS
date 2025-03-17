@@ -134,7 +134,7 @@ window.addEventListener('click', (event) => {
           const color = colors[Math.floor(Math.random() * colors.length)];
 
           const geometry = new THREE.SphereGeometry(ballSize, 32, 32);
-          const material = new THREE.MeshStandardMaterial({ color: color });
+          const material = new THREE.MeshStandardMaterial({ color });
           const sphere = new THREE.Mesh(geometry, material);
           sphere.position.set(
             col * spacing - gridSize / spacing / 2 + spacing / 2,
