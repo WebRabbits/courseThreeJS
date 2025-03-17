@@ -8,6 +8,7 @@
     "Materialshininess",
     "metalness",
     "Phong",
+    "raycaster",
     "spehere",
     "wireframe"
   ]
